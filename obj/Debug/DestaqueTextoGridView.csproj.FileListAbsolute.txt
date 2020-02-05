@@ -1,0 +1,10 @@
+C:\Users\j_ren\source\repos\DestaqueTextoGridView\bin\Debug\DestaqueTextoGridView.exe.config
+C:\Users\j_ren\source\repos\DestaqueTextoGridView\bin\Debug\DestaqueTextoGridView.exe
+C:\Users\j_ren\source\repos\DestaqueTextoGridView\bin\Debug\DestaqueTextoGridView.pdb
+C:\Users\j_ren\source\repos\DestaqueTextoGridView\obj\Debug\DestaqueTextoGridView.csprojAssemblyReference.cache
+C:\Users\j_ren\source\repos\DestaqueTextoGridView\obj\Debug\DestaqueTextoGridView.Form1.resources
+C:\Users\j_ren\source\repos\DestaqueTextoGridView\obj\Debug\DestaqueTextoGridView.Properties.Resources.resources
+C:\Users\j_ren\source\repos\DestaqueTextoGridView\obj\Debug\DestaqueTextoGridView.csproj.GenerateResource.cache
+C:\Users\j_ren\source\repos\DestaqueTextoGridView\obj\Debug\DestaqueTextoGridView.csproj.CoreCompileInputs.cache
+C:\Users\j_ren\source\repos\DestaqueTextoGridView\obj\Debug\DestaqueTextoGridView.exe
+C:\Users\j_ren\source\repos\DestaqueTextoGridView\obj\Debug\DestaqueTextoGridView.pdb
