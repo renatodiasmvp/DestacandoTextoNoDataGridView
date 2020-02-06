@@ -104,9 +104,22 @@ namespace DestaqueTextoGridView
                             hl_rect.X = e.CellBounds.X + 2;
                             hl_rect.Width = s2.Width - 6;
                         }
-                        // cor para destacar o texto na célula  
+
                         SolidBrush hl_brush;
-                        hl_brush = new SolidBrush(Color.Yellow);
+                        // cor para destacar o texto na célula 
+                        if (dataGridView1.Rows[e.RowIndex].Selected)
+                        {
+                            // Destaque em preto se a linha for selecionada
+                            hl_brush = new SolidBrush(Color.Black);
+                            e.CellStyle.ForeColor = Color.White;
+                        } else
+                        {
+                            // Destaque na cor amarela
+                            hl_brush = new SolidBrush(Color.Yellow);
+                        }
+                         
+                        
+                        
                         // pinta o fundo da célula para destacar a string procurada 
                         e.Graphics.FillRectangle(hl_brush, hl_rect);
                         hl_brush.Dispose();
@@ -114,6 +127,12 @@ namespace DestaqueTextoGridView
                     }
                 }
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            dataGridView1.Rows[e.RowIndex].Cells[1].Style.ForeColor = Color.White;
+            dataGridView1.Rows[e.RowIndex].Cells[1].Style.BackColor = Color.Black;
         }
     }
 }
